@@ -26,7 +26,7 @@
 
 ##### CSS
 
-1. Added user select none to the body.
+1. Added user select none.
 2. Changed colors and background colors.
 3. Added border, border-radius.
 4. Added transform property and transition property.
