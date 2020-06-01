@@ -29,7 +29,7 @@ function showEmployees(data) {
 
 // Create the search form and added to the DOM
 const searchFormHTML = () => {
-  let searchHTML = `
+  const searchHTML = `
       <form action="#" method="get">
           <input type="search" id="search-input" class="search-input" placeholder="Search...">
           <input type="submit" value="&#x1F50D;" id="search-submit" class="search-submit">
@@ -159,7 +159,7 @@ const modalsBtn = (data, index) => {
 };
 
 // Selecting required elements, added eventListeners to input field for real time search and submit button for searching the employees
-function filterUser(data) {
+const filterUser = (data) => {
   const searchInput = document.querySelector("#search-input");
   const searchSubmit = document.querySelector("form");
   // EventListener for keyup event on the input field, setting attributes and style of input field, calling search function to filter the input value
@@ -219,4 +219,4 @@ function filterUser(data) {
       }
     }
   };
-}
+};
