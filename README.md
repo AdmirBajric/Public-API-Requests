@@ -21,6 +21,7 @@
 8.  Added filter feature to filter the employees with submit on the form.
 9.  Added toggle feature to toggle back and forth between the employees when the modal window is open.
 10. Edited css files, colors, background colors, borders, border-radius, transitions and transform.
+11. Added functionality for error messages.
 
 #### More details
 
